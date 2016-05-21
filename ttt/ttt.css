@@ -1,0 +1,45 @@
+table {
+  background-color: black;
+
+}
+
+html, body {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background-color: red;
+}
+
+.container-fluid {
+  background-color: lightblue;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.yellow {
+  color: yellow;
+}
+
+h1 {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: red;
+  color: yellow;
+}
+
+#winner {
+  font-size: 40pt;
+}
+
+td {
+  height: 150px;
+  width: 150px;
+  margin: 2px;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  color: white;
+  text-align: center;
+  font-size: 48pt;
+}
