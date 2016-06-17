@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="ttt.js" type="text/javascript"></script>
+    <link href="ttt.css" type="text/css" rel="stylesheet"/>
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <h1>Super Awesome Tic-Tac-Toe!</h1>
+    <div class = "col-sm-12" id = "gameboard">
+      <!-- Table to hold the game board -->
+      <table class= "grid">
+        <tr class = "row" id = "row1">
+          <td class = "cell" id = "0">
+          </td>
+          <td class = "cell" id = "1">
+          </td>
+          <td class = "cell" id = "2">
+          </td>
+        </tr>
+        <tr class = "row" id = "row2">
+          <td class = "cell" id = "3">
+          </td>
+          <td class = "cell" id = "4">
+          </td>
+          <td class = "cell" id = "5">
+          </td>
+        </tr>
+        <tr class = "row" id= "row3">
+          <td class = "cell" id = "6">
+          </td>
+          <td class = "cell" id = "7">
+          </td>
+          <td class = "cell" id = "8">
+          </td>
+        </tr>
+      </table>
+    </div>
+    <h2 id="winner">Winner is ?</h2>
+    <div class="text-center">
+      <input type="button" value="New Game" id="newGameButton"/>
+    </div>
+  </body>
+</html>
